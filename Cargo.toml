@@ -13,5 +13,5 @@ categories = ["network-programming", "cryptography"]
 exclude = ["/admin/"]
 
 [dependencies]
-ring = "0.16.20"
+ring = { version = "0.16.20", git = "https://github.com/svenpaulsen/ring", branch = "v0.16.20-patched" }
 untrusted = "0.7.0" # stick with the version that's used by current ring
